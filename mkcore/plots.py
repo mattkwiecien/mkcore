@@ -1,4 +1,5 @@
 def colors():
+    """Returns a list of color DTOs with KEY: hexcode VALUE: color name tuples"""
     from collections import namedtuple
 
     color = namedtuple("Color", ["code", "name"])
